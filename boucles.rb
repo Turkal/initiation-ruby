@@ -1,7 +1,6 @@
-utilisateurs = [
-  "Alice", "Bob", "John", "Hector"
-]
-
-utilisateurs.each do |utilisateur|
-  puts utilisateur
+10.times do |i|
+  puts "Hello #{i}"
+  i.times do
+    puts "World"
+  end
 end
